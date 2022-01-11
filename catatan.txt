@@ -2,7 +2,8 @@
 id|id_tpa|username|email|password|level
 
 #managemen daftar tpa
-id|nama|alamat|no_hp|dekripsi|latitude|longitude|photo
+id|nama|alamat|no_hp|dekripsi|latitude|longitude|photo ->sultan
+id|nama|alamat|no_hp|dekripsi|latitude|longitude|photo ->widi
 
 #managemen artikel
 id|beranda|
