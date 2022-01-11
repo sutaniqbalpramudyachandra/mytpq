@@ -57,6 +57,17 @@ function checkrouteactive($route){
           </li>
           <!-- end looping -->
 
+           <!-- looping -->
+          <li class="nav-item">
+            <a href="{{url('admin/tpq')}}" class="nav-link {{checkrouteactive('admin/tpq')}}">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Daftar TPQ
+              </p>
+            </a>
+          </li>
+          <!-- end looping -->
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
