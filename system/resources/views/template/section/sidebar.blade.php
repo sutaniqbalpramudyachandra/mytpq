@@ -68,6 +68,17 @@ function checkrouteactive($route){
           </li>
           <!-- end looping -->
 
+           <!-- looping -->
+          <li class="nav-item">
+            <a href="{{url('admin/artikel')}}" class="nav-link {{checkrouteactive('admin/artikel')}}">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Artikel
+              </p>
+            </a>
+          </li>
+          <!-- end looping -->
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
