@@ -1,0 +1,60 @@
+@extends('template.base')
+@section('content')
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 mt-2">
+			<div class="card">
+				<div class="card-header">
+					Index Name
+					<div class="card-tools">
+						<button type="button"
+								class="btn btn-dark btn-sm"
+								data-card-widget="collapse"
+								data-toggle="tooltip"
+								title="Collapse">
+							<i class="fas fa-minus"></i>
+						</button>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="table-responsive">
+						<table class="table table-datatable table-bordered table-hover table-sm">
+							<thead>
+								<th>No</th>
+								<th>Aksi</th>
+								<th>ID</th>
+								<th>ID Santri</th>
+								<th>Nama Santri</th>
+								<th>Nominal</th>
+								<th>Waktu</th>
+								<th>Petugas Penerima</th>
+								<th>Ket</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>
+										<div class="btn-group">
+											
+										<button id="1" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#edit_1"><i class="fa fa-edit"></i></button>
+										<button id="1" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#create_1"><i class="fa fa-save"></i></button>
+										</div>
+									</td>
+									<td>12</td>
+									<td>1114001</td>
+									<td>widi arrohman</td>
+									<td>Rp.{{number_format(350000)}}</td>
+									<td>2021-06-30</td>
+									<td>admin</td>
+									<td>ini adalah keterangan</td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+@endsection

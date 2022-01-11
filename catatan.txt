@@ -1,0 +1,13 @@
+#managenem user
+id|id_tpa|username|email|password|level
+
+#managemen daftar tpa
+id|nama|alamat|no_hp|dekripsi|latitude|longitude|photo
+
+#managemen artikel
+id|beranda|
+
++
+#preview tpa
+id|review|id_user|
+
