@@ -6,7 +6,7 @@ id|nama|alamat|no_hp|dekripsi|latitude|longitude|photo ->sultan
 id|nama|alamat|no_hp|dekripsi|latitude|longitude|photo ->widi
 
 #managemen artikel
-id|beranda|
+id|judul|isi|tanggal
 
 +
 #preview tpa

@@ -17,6 +17,7 @@
 <!-- Bootstrap Switch -->
 <script src="{{ url('public/plugins/bootstrap-switch/js/bootstrap-switch.min.js') }}"></script>
 
+<script type="text/javascript" src="{{url('public/ckeditor/ckeditor.js')}}"></script>
 <script>
 	$(".table-datatable").DataTable();
 

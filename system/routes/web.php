@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\TpqController;
 
+use App\Http\Controllers\ArtikelController;
     //login Admin
 Route::get('/', [AuthController::class, 'showLogin'])->name('login');
 Route::get('login', [AuthController::class, 'showLogin'])->name('login');
@@ -17,10 +18,24 @@ Route::prefix('admin')->middleware('auth')->group(function(){
     Route::get('beranda', [UserController::class, 'beranda']);
     Route::resource('user', UserController::class);
 
+<<<<<<< Updated upstream
     Route::get('tpq', [TpqController::class, 'index']);
     Route::get('tpq/create', [TpqController::class, 'create']);
     Route::post('tpq/', [TpqController::class, 'store']);
     
 
 
+=======
+
+
+
+
+    Route::get('artikel', [ArtikelController::class, 'index']);
+    Route::get('artikel/create', [ArtikelController::class, 'create']);
+    Route::post('artikel', [ArtikelController::class, 'store']);
+    Route::get('artikel/{artikel}', [ArtikelController::class, 'show']);
+    Route::get('artikel/{artikel}/edit', [ArtikelController::class, 'edit']);
+    Route::put('artikel/{artikel}', [ArtikelController::class, 'update']);
+    Route::delete('artikel/{artikel}', [ArtikelController::class, 'destroy']);
+>>>>>>> Stashed changes
 });

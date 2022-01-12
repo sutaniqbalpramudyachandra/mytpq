@@ -6,15 +6,7 @@
 			<div class="card">
 				<div class="card-header">
 					Index Name
-					<div class="card-tools">
-						<button type="button"
-								class="btn btn-dark btn-sm"
-								data-card-widget="collapse"
-								data-toggle="tooltip"
-								title="Collapse">
-							<i class="fas fa-minus"></i>
-						</button>
-					</div>
+				<a href="{{url('admin/artikel/create')}}" class="btn btn-dark float-right"><i class="fa fa-plus"></i> Tambah</a>
 				</div>
 				<div class="card-body">
 					<div class="table-responsive">

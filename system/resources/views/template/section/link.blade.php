@@ -1,5 +1,5 @@
-  <link rel="stylesheet" href="{{ url('public/css/fonts_googleapis.css')}}">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="{{ url('public/css/fonts_googleapis.css')}}"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet"> -->
  
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="{{ url('public/plugins/fontawesome-free/css/all.min.css')}}">
