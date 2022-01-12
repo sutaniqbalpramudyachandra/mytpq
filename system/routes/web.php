@@ -18,17 +18,9 @@ Route::prefix('admin')->middleware('auth')->group(function(){
     Route::get('beranda', [UserController::class, 'beranda']);
     Route::resource('user', UserController::class);
 
-<<<<<<< Updated upstream
     Route::get('tpq', [TpqController::class, 'index']);
     Route::get('tpq/create', [TpqController::class, 'create']);
     Route::post('tpq/', [TpqController::class, 'store']);
-    
-
-
-=======
-
-
-
 
     Route::get('artikel', [ArtikelController::class, 'index']);
     Route::get('artikel/create', [ArtikelController::class, 'create']);
@@ -37,5 +29,5 @@ Route::prefix('admin')->middleware('auth')->group(function(){
     Route::get('artikel/{artikel}/edit', [ArtikelController::class, 'edit']);
     Route::put('artikel/{artikel}', [ArtikelController::class, 'update']);
     Route::delete('artikel/{artikel}', [ArtikelController::class, 'destroy']);
->>>>>>> Stashed changes
+
 });
